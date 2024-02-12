@@ -16,7 +16,7 @@ datapackage:
     format: xlsx
     mediatype: text/csv
     name: vix-daily 222
-    path: data/vix-daily2.csv
+    path: data/vix-daily.csv
     profile: tabular-data-resource
     schema:
       fields:
