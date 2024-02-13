@@ -88,14 +88,14 @@ datapackage:
     title: VIX - CBOE Volatility Index 2
 ---
 
-# Finance VIX
+## Finance VIX
 
 CBOE Volatility Index (VIX) time-series dataset including daily open, close,
 high and low. The CBOE Volatility Index (VIX) is a key measure of market
 expectations of near-term volatility conveyed by S&P 500 stock index option
 prices introduced in 1993.
 
-## Data
+### Data
 
 From the [VIX FAQ][faq]:
 
@@ -120,15 +120,7 @@ From the [VIX FAQ][faq]:
 
 [faq]: http://www.cboe.com/micro/vix/faq.aspx
 
-## Development
-
-This is a simple pipeline where the only requirement is to have `curl` and `make`. You can get the data by running the following command locally:
-
-```bash
-make
-```
-
-## License
+### License
 
 No obvious statement on [historical data page][historical]. Given size and
 factual nature of the data and its source from a US company would imagine this
