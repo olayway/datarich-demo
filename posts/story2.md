@@ -37,6 +37,33 @@ datapackage:
         type: number
       missingValues:
       - ''
+    title: VIX Daily 2
+  - dpp:streaming: true
+    encoding: utf-8
+    format: csv
+    mediatype: text/csv
+    name: vix-daily
+    path: data/vix-daily.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+      - format: any
+        name: Date
+        type: date
+      - format: default
+        name: VIX Open
+        type: number
+      - format: default
+        name: VIX High
+        type: number
+      - format: default
+        name: VIX Low
+        type: number
+      - format: default
+        name: VIX Close
+        type: number
+      missingValues:
+      - ''
     title: VIX Daily
   sources:
   - name: CBOE VIX Page
@@ -51,6 +78,14 @@ datapackage:
       type: line
     specType: simple
     title: VIX - CBOE Volatility Index
+  - name: graph
+    spec:
+      group: Date
+      series:
+      - VIX Close
+      type: bar
+    specType: simple
+    title: VIX - CBOE Volatility Index 2
 ---
 
 [Here is the source file on GitHub](https://github.com/datopian/datarich-demo/blob/main/posts/story2.md) used to render this page.
