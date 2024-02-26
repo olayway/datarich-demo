@@ -22,14 +22,6 @@ Data comes from the [Carbon Dioxide Information Analysis Center (CDIAC)](http:/
 	url="./data/global-co2-emissions.csv"
 />
 
-<FlatUiTable
-	url="data/global-co2-emissions.csv"
-/>
-
-<FlatUiTable
-	url="/data/global-co2-emissions.csv"
-/>
-
 ## Total Emissions Over Time
 
 This line chart depicts the trend in total CO2 emissions over time, highlighting the significant increase in emissions, particularly in the post-industrial era.
