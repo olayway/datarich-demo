@@ -1,6 +1,6 @@
 ---
 title: Global CO2 Emissions Analysis
-authors: [Jane Doe, John Smith]
+authors: 22
 date: "2023-11-30"
 ---
 
