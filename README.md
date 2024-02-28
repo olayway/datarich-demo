@@ -28,9 +28,9 @@ The structure and text formatting of the documents are created with simple markd
 
 And guess what? What you are reading right now is just his kind of data-rich document with rendering powered by DataHub. That's why we can do this:
 
-<LineChart data={
+<LineChart dat={
     [
-      ["1850",-0.41765878,
+      ["1850",-0.41765878],
       ["1851",-0.2333498],
       ["1852",-0.22939907],
       ["1853",-0.27035445],
