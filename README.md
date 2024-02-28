@@ -16,7 +16,7 @@
     <td>Francisco Chang</td>
     <td>Mexico</td>
   </tr>
-</table>
+<table>
 
 Welcome to Data-Rich Documents Demo!
 
