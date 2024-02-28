@@ -1,6 +1,6 @@
 ---
 title: Global CO2 Emissions Analysis
-authors: 22
+authors: [John Doe]
 date: "2023-11-30"
 ---
 
