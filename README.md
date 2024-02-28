@@ -28,7 +28,7 @@ The structure and text formatting of the documents are created with simple markd
 
 And guess what? What you are reading right now is just his kind of data-rich document with rendering powered by DataHub. That's why we can do this:
 
-<LineChart data={"somedata"} />
+<LineChart data="somedata" />
 
 <LineChart data={
     [
