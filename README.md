@@ -74,6 +74,8 @@ And guess what? What you are reading right now is just his kind of data-rich doc
     ]
 } />
 
+<LineChart data={[1,2,3]} />
+
 
 Awesome, right? Even more awesome is that this chart is created by simply having the following snippet in this document:
 
