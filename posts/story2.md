@@ -97,7 +97,7 @@ prices introduced in 1993.
 
 ### Data
 
-From the [VIX FAQ][faq]:
+From the [VIX FAQ][faq]: <test>
 
 > In 1993, the Chicago Board Options Exchange® (CBOE®) introduced the CBOE
 > Volatility Index®, VIX®, and it quickly became the benchmark for stock market
