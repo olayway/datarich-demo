@@ -2,7 +2,6 @@
 title: Global CO2 Emissions Analysis
 authors: [Jane Doe, John Smith]
 date: 2023-11-30
-image: climate-change.jpeg
 ---
 
 ## Introduction
