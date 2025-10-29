@@ -29,7 +29,7 @@ This line chart depicts the trend in total CO2 emissions over time, highlighting
 
 The following bar chart compares emissions from different sources in 2010. It illustrates the relative contribution of each source to the total emissions.
 
-```
+
 <PlotlyBarChart
   data={{
     url: '/data/global-co2-emissions-2010.csv'
@@ -38,7 +38,7 @@ The following bar chart compares emissions from different sources in 2010. It il
   xAxis="Type"
   yAxis="Amount"
 />
-```
+
 
 ## Conclusion
 
