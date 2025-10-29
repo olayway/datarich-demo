@@ -12,7 +12,7 @@ This analysis explores the trends in global CO2 emissions from 1751, examining t
 
 Data comes from the [Carbon Dioxide Information Analysis Center (CDIAC)](http://cdiac.esd.ornl.gov/).
 
-<FlatUiTable data={{url: "/data/global-co2-emissions.csv"}} />
+`<FlatUiTable data={{url: "/data/global-co2-emissions.csv"}} />`
 
 ## Total Emissions Over Time
 
@@ -29,6 +29,7 @@ This line chart depicts the trend in total CO2 emissions over time, highlighting
 
 The following bar chart compares emissions from different sources in 2010. It illustrates the relative contribution of each source to the total emissions.
 
+```
 <PlotlyBarChart
   data={{
     url: '/data/global-co2-emissions-2010.csv'
@@ -37,6 +38,7 @@ The following bar chart compares emissions from different sources in 2010. It il
   xAxis="Type"
   yAxis="Amount"
 />
+```
 
 ## Conclusion
 
