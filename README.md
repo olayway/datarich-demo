@@ -12,7 +12,7 @@ This analysis explores the trends in global CO2 emissions from 1751, examining t
 
 Data comes from the [Carbon Dioxide Information Analysis Center (CDIAC)](http://cdiac.esd.ornl.gov/).
 
-`<FlatUiTable data={{url: "/data/global-co2-emissions.csv"}} />`
+<FlatUiTable data={{url: "/data/global-co2-emissions.csv"}} />
 
 ## Total Emissions Over Time
 
