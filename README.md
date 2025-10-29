@@ -39,6 +39,15 @@ The following bar chart compares emissions from different sources in 2010. It il
   yAxis="Amount"
 />
 
+<PlotlyLineChart
+  data={{
+    url: '/data/global-co2-emissions-2010.csv'
+  }}
+  title="Emissions distribution in 2010"
+  xAxis="Type"
+  yAxis="Amount"
+/>
+
 
 ## Conclusion
 
